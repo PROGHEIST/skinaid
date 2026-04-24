@@ -54,7 +54,7 @@ const ClassifyImage = () => {
     formData.append("file", selectedFile);
 
     try {
-      const response = await fetch("http://localhost:8001/classify-image", {
+      const response = await fetch("http://localhost:8000/classify-image", {
         method: "POST",
         body: formData,
       });

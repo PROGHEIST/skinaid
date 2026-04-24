@@ -130,7 +130,7 @@ const ChatbotInterface = () => {
 
     try {
       // --- NGROK ML BACKEND URL ---
-      const backendUrl = "https://570b-35-247-145-54.ngrok-free.app";
+      const backendUrl = "https://beeriest-scottie-chagrinedly.ngrok-free.dev";
       const chatEndpoint = `${backendUrl}/chat`;
       
       console.log("📤 Sending prompt to Llama 2 (Colab) backend:", chatEndpoint);

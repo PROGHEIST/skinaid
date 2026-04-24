@@ -1,6 +1,8 @@
 fastapi
 uvicorn
 python-multipart
-tensorflow
 numpy
 Pillow
+kaggle
+datasets
+huggingface_hub
